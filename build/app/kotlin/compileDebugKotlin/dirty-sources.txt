@@ -1,0 +1,1 @@
+/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/kotlin/com/example/uznay_sysert/MainActivity.kt

@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.uznay_sysert"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:13:5-79
+15-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:15:5-81
+16-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:15:22-78
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:16:5-76
+17-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+18-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:17:5-76
+18-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:17:22-73
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:18:5-79
+19-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:18:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:19:5-68
+20-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:19:22-65
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:20:5-81
+21-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:20:22-78
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:21:5-68
+22-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:21:22-65
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+23-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:22:5-74
+23-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:22:22-71
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25
+26    <application
+26-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:3:4-40:19
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0-alpha01] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/4322d335a9b8b06885173e85d6b268b4/core-1.6.0-alpha01/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:5:9-43
+30        android:label="uznay_sysert" >
+30-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:4:9-37
+31        <activity
+31-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:6:9-34:20
+32            android:name="com.example.uznay_sysert.MainActivity"
+32-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:7:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:10:13-163
+34            android:hardwareAccelerated="true"
+34-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:11:13-47
+35            android:launchMode="singleTop"
+35-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:8:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:9:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:12:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:17:13-20:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:18:15-70
+47                android:resource="@style/NormalTheme" />
+47-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:19:15-52
+48            <!--
+49                 Displays an Android View that continues showing the launch screen
+50                 Drawable until Flutter paints its first frame, then this splash
+51                 screen fades out. A splash screen is useful to avoid any visual
+52                 gap between the end of Android's launch screen and the painting of
+53                 Flutter's first frame.
+54            -->
+55            <meta-data
+55-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:26:13-29:17
+56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+56-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:27:15-79
+57                android:resource="@drawable/launch_background" />
+57-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:28:15-61
+58
+59            <intent-filter>
+59-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:30:13-33:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:31:17-68
+60-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:31:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:32:17-76
+62-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:32:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:37:9-39:33
+70            android:name="flutterEmbedding"
+70-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:38:13-44
+71            android:value="2" />
+71-->/Users/denisdedov/Documents/Application/uznay_sysert/android/app/src/main/AndroidManifest.xml:39:13-30
+72        <meta-data
+72-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:25:9-27:38
+73            android:name="yandex.maps.runtime.stl.linkage"
+73-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:26:13-59
+74            android:value="static" />
+74-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:27:13-35
+75
+76        <service
+76-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:29:9-32:72
+77            android:name="com.evernote.android.job.patched.internal.v21.PlatformJobService"
+77-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:30:13-92
+78            android:exported="false"
+78-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:31:13-37
+79            android:permission="android.permission.BIND_JOB_SERVICE" />
+79-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:32:13-69
+80        <service
+80-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:33:9-36:72
+81            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmService"
+81-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:34:13-94
+82            android:exported="false"
+82-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:35:13-37
+83            android:permission="android.permission.BIND_JOB_SERVICE" />
+83-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:36:13-69
+84        <service
+84-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:37:9-39:40
+85            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmServiceExact"
+85-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:38:13-99
+86            android:exported="false" />
+86-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:39:13-37
+87
+88        <receiver
+88-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:41:9-50:20
+89            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver"
+89-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:42:13-95
+90            android:exported="false" >
+90-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:43:13-37
+91            <intent-filter>
+91-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:44:13-49:29
+92
+93                <!-- Keep the filter for legacy intents -->
+94                <action android:name="com.evernote.android.job.patched.internal.v14.RUN_JOB" />
+94-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:47:17-96
+94-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:47:25-93
+95                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+95-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:48:17-78
+95-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:48:25-75
+96            </intent-filter>
+97        </receiver>
+98        <receiver
+98-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:51:9-60:20
+99            android:name="com.evernote.android.job.patched.internal.JobBootReceiver"
+99-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:52:13-85
+100            android:exported="false" >
+100-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:53:13-37
+101            <intent-filter>
+101-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:54:13-59:29
+102                <action android:name="android.intent.action.BOOT_COMPLETED" />
+102-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:55:17-79
+102-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:55:25-76
+103                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+103-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:56:17-82
+103-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:56:25-79
+104                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+104-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:57:17-82
+104-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:57:25-79
+105                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+105-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:58:17-84
+105-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:58:25-81
+106            </intent-filter>
+107        </receiver>
+108
+109        <service
+109-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:62:9-65:72
+110            android:name="com.evernote.android.job.patched.internal.JobRescheduleService"
+110-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:63:13-90
+111            android:exported="false"
+111-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:64:13-37
+112            android:permission="android.permission.BIND_JOB_SERVICE" />
+112-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:65:13-69
+113        <service
+113-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:66:9-69:72
+114            android:name="com.yandex.runtime.connectivity.internal.ConnectivityService"
+114-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:67:13-88
+115            android:exported="true"
+115-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:68:13-36
+116            android:permission="android.permission.BIND_JOB_SERVICE" />
+116-->[com.yandex.android:maps.mobile:4.0.0-full] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/992ed208388d7f9dc01b1cb1bd3d71ec/jetified-maps.mobile-4.0.0-full/AndroidManifest.xml:69:13-69
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:16.0.1] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/a51e43fc0eef39b9df9abe9c08f5b886/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:16.0.1] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/a51e43fc0eef39b9df9abe9c08f5b886/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:16.0.1] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/a51e43fc0eef39b9df9abe9c08f5b886/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:16.0.1] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/a51e43fc0eef39b9df9abe9c08f5b886/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:16.0.1] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/4c225ae0638bff1f223631e13ec69729/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:16.0.1] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/4c225ae0638bff1f223631e13ec69729/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:16.0.1] /Users/denisdedov/.gradle/caches/transforms-2/files-2.1/4c225ae0638bff1f223631e13ec69729/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+126    </application>
+127
+128</manifest>
